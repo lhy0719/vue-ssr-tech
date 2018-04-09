@@ -11,7 +11,7 @@
               {{state}}
           </span>
       </span>
-      <span class="clear" @click="clearAllCompleted"></span>
+      <span class="clear" @click="clearAllCompleted">Clear Completed</span>
   </div>
 </template>
 
@@ -25,7 +25,7 @@ export default {
     },
   data(){
       return {
-
+          states:['all','active','completed']
       }
   },
   methods:{

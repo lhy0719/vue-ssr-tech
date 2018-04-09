@@ -8,7 +8,7 @@
       @keyup.enter="addTodo" 
       >
       <item :todo="todo"></item>
-      <tabs></tabs>
+      <tabs :filter="filter"></tabs>
   </section>
 </template>
 
